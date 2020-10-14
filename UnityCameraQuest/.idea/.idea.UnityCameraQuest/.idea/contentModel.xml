@@ -10,6 +10,7 @@
           <e p="LookX.cs" t="Include" />
           <e p="LookY.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="RenderTextureQuest.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

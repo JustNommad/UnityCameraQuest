@@ -61,6 +61,7 @@
      <Compile Include="Assets\Scripts\LookX.cs" />
      <Compile Include="Assets\Scripts\LookY.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\RenderTextureQuest.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/maximkr/Unity Projects/UnityCameraQuest/UnityCameraQuest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
