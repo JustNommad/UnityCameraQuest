@@ -1,11 +1,11 @@
 # =============== #
 # Unity generated #
 # =============== #
-[Tt]emp/
-[Oo]bj/
-[Bb]uild
-[Ll]ibrary/
-sysinfo.txt
+UnityCameraQuest/[Tt]emp/
+UnityCameraQuest/[Oo]bj/
+UnityCameraQuest/[Bb]uild
+UnityCameraQuest/[Ll]ibrary/
+UnityCameraQuest/sysinfo.txt
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
@@ -37,37 +37,37 @@ ehthumbs.db
 # =============== #
 # StreamingAssets #
 # =============== #
-/Assets/StreamingAssets.meta
+/UnityCameraQuest//Assets/StreamingAssets.meta
 
-.idea
+/UnityCameraQuest/.idea
 
 # =============== #
 # JetBrains Rider #
 # =============== #
-Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
-Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
-Assets/Plugins/Editor/JetBrains.meta
+/UnityCameraQuest/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+/UnityCameraQuest/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+/UnityCameraQuest/Assets/Plugins/Editor/JetBrains.meta
 
 # ============================================== #
 # added to ignore because of Visual Studio users #
 # ============================================== #
-Assets/Plugins/Editor.meta
+/UnityCameraQuest/Assets/Plugins/Editor.meta
 
 /BoardKings.sublime-workspace
 *.sln.DotSettings.user
 *.sln.DotSettings
 
-/Assets/SKTools/
-/Assets/SKTools.meta
-.vscode/
+/UnityCameraQuest/Assets/SKTools/
+/UnityCameraQuest/Assets/SKTools.meta
+/UnityCameraQuest/.vscode/
 
-/Assets/DeploymentConfigurations/Dev/**
-Assets/DeploymentConfigurations/Dev/BKServerConfiguration.asset
-Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents
-Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents.meta
+/UnityCameraQuest/Assets/DeploymentConfigurations/Dev/**
+/UnityCameraQuest/Assets/DeploymentConfigurations/Dev/BKServerConfiguration.asset
+/UnityCameraQuest/Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents
+/UnityCameraQuest/Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents.meta
 
 # Logger Configuration File
-Assets/EditorConsoleSettings.asset
+/UnityCameraQuest/Assets/EditorConsoleSettings.asset
 /PartyMode.csproj.DotSettings
 
-/PersistentData/*
+/UnityCameraQuest/PersistentData/*
