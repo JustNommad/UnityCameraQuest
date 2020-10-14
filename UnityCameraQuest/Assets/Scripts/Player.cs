@@ -9,12 +9,10 @@ public class Player : MonoBehaviour
     [SerializeField] private float _speed = 4.0f;
     [SerializeField] private float _defaultFOV = 60.0f;
     [SerializeField] private float _newFOV = 30.0f;
+    [SerializeField] private string _horizontal = "Horizontal";
+    [SerializeField] private string _vertical = "Vertical";
 
     private bool _zoom = false;
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
@@ -28,12 +26,8 @@ public class Player : MonoBehaviour
 
     void CalculateMovement()
     {
-        var horizontal = gameObject.CompareTag("Player1") 
-            ? Input.GetAxis("HorizontalWASD")
-            :Input.GetAxis("HorizontalArrow");
-        var vertical = gameObject.CompareTag("Player1") 
-            ? Input.GetAxis("VerticalWASD")
-            :Input.GetAxis("VerticalArrow");
+        var horizontal = Input.GetAxis(_horizontal);
+        var vertical = Input.GetAxis(_vertical);
         
         var diractional = new Vector3(horizontal, 0,vertical);
         transform.Translate(diractional * _speed * Time.deltaTime);
