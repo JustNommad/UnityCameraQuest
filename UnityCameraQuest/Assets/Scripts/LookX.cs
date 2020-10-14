@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class LookX : MonoBehaviour
 {
-    [SerializeField] private float _sensitivity = 1.0f;
+    [SerializeField] private float _sensitivity = 4.0f;
+
     void Update()
     {
         var mauseX = Input.GetAxis("Mouse X");
