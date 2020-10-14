@@ -15,7 +15,6 @@ public class RenderTextureQuest : MonoBehaviour
         _rTexture = new RenderTexture(1024, 1024, 16, RenderTextureFormat.ARGB32);
         _rTexture.Create();
         _camera.targetTexture = _rTexture;
-        _renderer.material = new Material(_shader);
-        _renderer.material.mainTexture = _rTexture;
+        _renderer.material = new Material(_shader) {mainTexture = _rTexture};
     }
 }
