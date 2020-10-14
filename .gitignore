@@ -1,0 +1,73 @@
+# =============== #
+# Unity generated #
+# =============== #
+[Tt]emp/
+[Oo]bj/
+[Bb]uild
+[Ll]ibrary/
+sysinfo.txt
+
+# ===================================== #
+# Visual Studio / MonoDevelop generated #
+# ===================================== #
+[Ee]xported[Oo]bj/
+.vs/
+/*.userprefs
+/*.csproj
+/*.pidb
+/*.suo
+/*.sln*
+/*.user
+/*.unityproj
+/*.booproj
+#Assets/UnityVS
+
+# ============ #
+# OS generated #
+# ============ #
+.DS_Store*
+._*
+.Spotlight-V100
+.Trashes
+#Icon?
+ehthumbs.db
+[Tt]humbs.db
+.consulo
+
+# =============== #
+# StreamingAssets #
+# =============== #
+/Assets/StreamingAssets.meta
+
+.idea
+
+# =============== #
+# JetBrains Rider #
+# =============== #
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta
+Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll
+Assets/Plugins/Editor/JetBrains.meta
+
+# ============================================== #
+# added to ignore because of Visual Studio users #
+# ============================================== #
+Assets/Plugins/Editor.meta
+
+/BoardKings.sublime-workspace
+*.sln.DotSettings.user
+*.sln.DotSettings
+
+/Assets/SKTools/
+/Assets/SKTools.meta
+.vscode/
+
+/Assets/DeploymentConfigurations/Dev/**
+Assets/DeploymentConfigurations/Dev/BKServerConfiguration.asset
+Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents
+Assets/JellyTools/Analytics/AnalyticsCheck/Editor/RecordedEvents.meta
+
+# Logger Configuration File
+Assets/EditorConsoleSettings.asset
+/PartyMode.csproj.DotSettings
+
+/PersistentData/*
