@@ -63,6 +63,8 @@
      <Compile Include="Assets\Scripts\LookY.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\RenderTextureQuest.cs" />
+     <Compile Include="Assets\Scripts\SpeedData.cs" />
+     <None Include="Assets\csc.rsp" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/maximkr/Unity Projects/UnityCameraQuest/UnityCameraQuest/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -626,6 +628,9 @@
  </Reference>
  <Reference Include="Boo.Lang">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

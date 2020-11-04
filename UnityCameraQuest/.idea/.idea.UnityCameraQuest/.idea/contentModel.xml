@@ -7,9 +7,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="csc.rsp" t="Include" />
         <e p="Editor" t="Include">
           <e p="ChangeColor.cs" t="Include" />
           <e p="ColorManagerInspector.cs" t="Include" />
+          <e p="EncodingTask.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
           <e p="ColorManager.cs" t="Include" />
@@ -17,6 +19,7 @@
           <e p="LookY.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="RenderTextureQuest.cs" t="Include" />
+          <e p="SpeedData.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

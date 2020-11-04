@@ -60,6 +60,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\ChangeColor.cs" />
      <Compile Include="Assets\Editor\ColorManagerInspector.cs" />
+     <Compile Include="Assets\Editor\EncodingTask.cs" />
  <Reference Include="UnityEditor.TestRunner">
  <HintPath>/Users/maximkr/Unity Projects/UnityCameraQuest/UnityCameraQuest/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
@@ -647,6 +648,9 @@
  </Reference>
  <Reference Include="Boo.Lang">
  <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>/Applications/Unity/Hub/Editor/2019.4.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.FileSystem.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

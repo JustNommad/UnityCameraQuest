@@ -6,14 +6,24 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     [SerializeField] private Camera[] _cameras;
-    [SerializeField] private float _speed = 4.0f;
+    [SerializeField] private SpeedData _speedData;
     [SerializeField] private float _defaultFOV = 60.0f;
     [SerializeField] private float _newFOV = 30.0f;
     [SerializeField] private string _horizontal = "Horizontal";
     [SerializeField] private string _vertical = "Vertical";
 
     private bool _zoom = false;
+    private float _speed = 0.0f;
+    public float Speed
+    {
+        get => _speed;
+        set => _speedData.Speed = value;
+    }
 
+    void Start()
+    {
+        _speed = _speedData.Speed;
+    }
     void Update()
     {
         CalculateMovement();
@@ -30,7 +40,7 @@ public class Player : MonoBehaviour
         var vertical = Input.GetAxis(_vertical);
         
         var diractional = new Vector3(horizontal, 0,vertical);
-        transform.Translate(diractional * _speed * Time.deltaTime);
+        transform.Translate(diractional * Speed * Time.deltaTime);
     }
 
     void ZoomIn()

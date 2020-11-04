@@ -22,28 +22,40 @@
     <list default="true" id="f91a64a1-4f22-4038-98b5-9ca607c2ae6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityCameraQuest/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityCameraQuest/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityCameraQuest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityCameraQuest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Render Texture.renderTexture" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/New Render Texture.renderTexture.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorUserBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Rider.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.Timeline.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.VSCode.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEditor.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.TestRunner.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/UnityEngine.UI.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/Hierarchy/20902f-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/Hierarchy/20902f-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/ce2dd2-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/ce2dd2-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler5.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler6.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" afterPath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnityCameraQuest.sln" beforeDir="false" afterPath="$PROJECT_DIR$/UnityCameraQuest.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityLockfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/__Backupscenes/0.backup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,28 +68,29 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/../../playtikaunityacademy/Playtika_Test/Assets/Scripts/Player.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/Test.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/Editor/MyCharacterEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LookX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpeedData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/Editor/MyWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/Editor/MenuItems.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/MyCharacter.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../UnityEditorScripts/Assets/Editor/ProjectileEditor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../playtikaunityacademy/Playtika_Test/Assets/Scripts/SmoothFollow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookX.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LookY.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RenderTexture.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RenderTextureQuest.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Color.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/DefaultColor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ColorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/ChangeColor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/ColorManagerInspector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpeedData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/EncodingTask.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -89,6 +102,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35021833" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30043668" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -104,10 +119,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="29228">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="29228" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -124,7 +139,9 @@
       <updated>1602671181643</updated>
       <workItem from="1602671185003" duration="8662000" />
       <workItem from="1602688149290" duration="1609000" />
-      <workItem from="1603097750357" duration="6389000" />
+      <workItem from="1603097750357" duration="7380000" />
+      <workItem from="1604496801790" duration="768000" />
+      <workItem from="1604497616350" duration="3347000" />
     </task>
     <servers />
   </component>
@@ -147,5 +164,71 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1176" height="278" key="GridCell.Tab.0.bottom" timestamp="1603107605898">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603107605898" />
+    <state width="1176" height="278" key="GridCell.Tab.0.center" timestamp="1603107605897">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1603107605897" />
+    <state width="1176" height="278" key="GridCell.Tab.0.left" timestamp="1603107605874">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1603107605874" />
+    <state width="1176" height="278" key="GridCell.Tab.0.right" timestamp="1603107605898">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1603107605898" />
+    <state width="1176" height="278" key="GridCell.Tab.1.bottom" timestamp="1603107605900">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603107605900" />
+    <state width="1176" height="278" key="GridCell.Tab.1.center" timestamp="1603107605899">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1603107605899" />
+    <state width="1176" height="278" key="GridCell.Tab.1.left" timestamp="1603107605899">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1603107605899" />
+    <state width="1176" height="278" key="GridCell.Tab.1.right" timestamp="1603107605900">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1603107605900" />
+    <state width="1176" height="278" key="GridCell.Tab.2.bottom" timestamp="1603107605901">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.2.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603107605901" />
+    <state width="1176" height="278" key="GridCell.Tab.2.center" timestamp="1603107605901">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.2.center/0.23.1440.811@0.23.1440.811" timestamp="1603107605901" />
+    <state width="1176" height="278" key="GridCell.Tab.2.left" timestamp="1603107605900">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.2.left/0.23.1440.811@0.23.1440.811" timestamp="1603107605900" />
+    <state width="1176" height="278" key="GridCell.Tab.2.right" timestamp="1603107605901">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.2.right/0.23.1440.811@0.23.1440.811" timestamp="1603107605901" />
+    <state width="1176" height="278" key="GridCell.Tab.3.bottom" timestamp="1603107605903">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.3.bottom/0.23.1440.811@0.23.1440.811" timestamp="1603107605903" />
+    <state width="1176" height="278" key="GridCell.Tab.3.center" timestamp="1603107605902">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.3.center/0.23.1440.811@0.23.1440.811" timestamp="1603107605902" />
+    <state width="1176" height="278" key="GridCell.Tab.3.left" timestamp="1603107605902">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.3.left/0.23.1440.811@0.23.1440.811" timestamp="1603107605902" />
+    <state width="1176" height="278" key="GridCell.Tab.3.right" timestamp="1603107605903">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state width="1176" height="278" key="GridCell.Tab.3.right/0.23.1440.811@0.23.1440.811" timestamp="1603107605903" />
   </component>
 </project>
