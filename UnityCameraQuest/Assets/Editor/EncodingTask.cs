@@ -30,7 +30,7 @@ public class EncodingTask : Editor
     public static void DownloadZIP()
     {
         string uri = "https://dminsky.com/settings.zip";
-        string outPath = Path.Combine("Assets/EncodingFiles", "settings.zip");
+        string outPath = Path.Combine("Assets/EncodingFiles", "settings.zfip");
         
         UnityWebRequest uwr = UnityWebRequest.Get(uri);
         uwr.downloadHandler = new DownloadHandlerFile(outPath);
@@ -51,7 +51,7 @@ public class EncodingTask : Editor
     {
         FileExceptionsCheck(delegate
         {
-            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zip",
+            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zfip",
                 "Assets/EncodingFiles/");
         });
     }
@@ -118,19 +118,19 @@ public class EncodingTask : Editor
         }
         catch (DirectoryNotFoundException e)
         {
-            Debug.Log(e.Message);
-        }
-        catch (InvalidDataException e)
-        {
-            Debug.Log(e.Message);
+            Debug.Log("Please! Check your directory path!" + e.Message);
         }
         catch (PathTooLongException e)
         {
-            Debug.Log(e.Message);
+            Debug.Log("Please! Give a short FileName!" + e.Message);
+        }
+        catch (IOException e)
+        {
+            Debug.Log("IOException : " + e.Message);
         }
         catch (Exception e)
         {
-            Debug.Log(e.Message);
+            Debug.Log("Error: " + e.Message);
         }
     }
 }
