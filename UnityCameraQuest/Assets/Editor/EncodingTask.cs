@@ -19,6 +19,7 @@ public class Stats
 public class EncodingTask : Editor
 {
     public static Stats tempPlayerData;
+    private static string _path = "Assets/EncodingFiles/";
     
     [MenuItem("Tools/Encoding/CSP")]
     public static void CSP()
@@ -49,19 +50,19 @@ public class EncodingTask : Editor
     [MenuItem("Tools/Encoding/Extract ZIP")]
     public static void ExtractZIP()
     {
-        FileExceptionsCheck(delegate
+        FileExceptionsCheck(delegate (string path)
         {
-            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zip",
-                "Assets/EncodingFiles/");
+            ZipFile.ExtractToDirectory(path + "settings.zip",
+                path);
         });
     }
 
     [MenuItem("Tools/Encoding/Deserialize JSON")]
     public static void DesirializeJSON()
     {
-        FileExceptionsCheck(delegate
+        FileExceptionsCheck(delegate (string path)
         {
-            var file = File.ReadAllText("Assets/EncodingFiles/settings.json");
+            var file = File.ReadAllText(path + "settings.json");
             tempPlayerData = JsonUtility.FromJson<Stats>(file);
         });
     }
@@ -72,14 +73,14 @@ public class EncodingTask : Editor
         FileExceptionsCheck(WallTexture);
     }
 
-    private static void WallTexture()
+    private static void WallTexture(string path)
     {
         var image = Convert.FromBase64String(tempPlayerData.base64Texture);
         Texture2D normal = new Texture2D(2,2);
         if (image.Length != 0)
         {
-            File.WriteAllBytes("Assets/EncodingFiles/image.jpg", image);
-            var data = File.ReadAllBytes("Assets/EncodingFiles/image.jpg");
+            File.WriteAllBytes(path + "image.jpg", image);
+            var data = File.ReadAllBytes(path + "image.jpg");
             if (data.Length != 0)
                 normal.LoadImage(data);
             
@@ -110,11 +111,14 @@ public class EncodingTask : Editor
             Debug.Log("null");
     }
 
-    private static void FileExceptionsCheck(Action action)
+    private static void FileExceptionsCheck(Action<string> action)
     {
         try
         {
-            action?.Invoke();
+            if (_path.Length >= 25)
+                throw new PathTooLongException("Please! Give a short FilePath! FilePath: " + _path);
+            
+            action?.Invoke(_path);
         }
         catch (DirectoryNotFoundException e)
         {
@@ -122,7 +126,7 @@ public class EncodingTask : Editor
         }
         catch (PathTooLongException e)
         {
-            Debug.Log("Please! Give a short FileName!" + e.Message);
+            Debug.Log(e.Message);
         }
         catch (IOException e)
         {
