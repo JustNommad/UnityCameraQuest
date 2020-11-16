@@ -50,11 +50,26 @@ public class EncodingTask : Editor
     [MenuItem("Tools/Encoding/Extract ZIP")]
     public static void ExtractZIP()
     {
-        FileExceptionsCheck(delegate (string path)
+        try
         {
-            ZipFile.ExtractToDirectory(path + "settings.zip",
-                path);
-        });
+            FileExceptionsCheck(delegate(string path)
+            {
+                ZipFile.ExtractToDirectory(path + "settings.zip",
+                    path);
+            });
+        }
+        catch (IOException e)
+        {
+            File.Delete(_path + "settings.json");
+        }
+        finally
+        {
+            FileExceptionsCheck(delegate(string path)
+            {
+                ZipFile.ExtractToDirectory(path + "settings.zip",
+                    path);
+            });
+        }
     }
 
     [MenuItem("Tools/Encoding/Deserialize JSON")]
@@ -131,6 +146,7 @@ public class EncodingTask : Editor
         catch (IOException e)
         {
             Debug.Log("IOException : " + e.Message);
+            throw;
         }
         catch (Exception e)
         {
