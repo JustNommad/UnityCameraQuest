@@ -49,19 +49,30 @@ public class EncodingTask : Editor
     [MenuItem("Tools/Encoding/Extract ZIP")]
     public static void ExtractZIP()
     {
-        ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zip", "Assets/EncodingFiles/");
+        FileExceptionsCheck(delegate
+        {
+            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zip",
+                "Assets/EncodingFiles/");
+        });
     }
 
     [MenuItem("Tools/Encoding/Deserialize JSON")]
     public static void DesirializeJSON()
     {
-        var file = File.ReadAllText("Assets/EncodingFiles/settings.json");
-        tempPlayerData = JsonUtility.FromJson<Stats>(file);
-        Debug.Log($"{tempPlayerData.health}: {tempPlayerData.speed} : {tempPlayerData.fullName}");
+        FileExceptionsCheck(delegate
+        {
+            var file = File.ReadAllText("Assets/EncodingFiles/settings.json");
+            tempPlayerData = JsonUtility.FromJson<Stats>(file);
+        });
     }
 
     [MenuItem("Tools/Encoding/Change Wall Texture")]
     public static void ChangeWallTexture()
+    {
+        FileExceptionsCheck(WallTexture);
+    }
+
+    private static void WallTexture()
     {
         var image = Convert.FromBase64String(tempPlayerData.base64Texture);
         Texture2D normal = new Texture2D(2,2);
@@ -91,11 +102,35 @@ public class EncodingTask : Editor
     }
     
     [MenuItem("Tools/Encoding/Check Player")]
-    public static void CHeckPlayer()
+    public static void CheckPlayer()
     {
         if(tempPlayerData != null)
             Debug.Log($"{tempPlayerData.fullName}");
         else
             Debug.Log("null");
+    }
+
+    private static void FileExceptionsCheck(Action action)
+    {
+        try
+        {
+            action?.Invoke();
+        }
+        catch (DirectoryNotFoundException e)
+        {
+            Debug.Log(e.Message);
+        }
+        catch (InvalidDataException e)
+        {
+            Debug.Log(e.Message);
+        }
+        catch (PathTooLongException e)
+        {
+            Debug.Log(e.Message);
+        }
+        catch (Exception e)
+        {
+            Debug.Log(e.Message);
+        }
     }
 }
