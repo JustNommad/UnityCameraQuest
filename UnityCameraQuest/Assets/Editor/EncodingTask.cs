@@ -30,7 +30,7 @@ public class EncodingTask : Editor
     public static void DownloadZIP()
     {
         string uri = "https://dminsky.com/settings.zip";
-        string outPath = Path.Combine("Assets/EncodingFiles", "settings.zfip");
+        string outPath = Path.Combine("Assets/EncodingFiles", "settings.zip");
         
         UnityWebRequest uwr = UnityWebRequest.Get(uri);
         uwr.downloadHandler = new DownloadHandlerFile(outPath);
@@ -51,7 +51,7 @@ public class EncodingTask : Editor
     {
         FileExceptionsCheck(delegate
         {
-            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zfip",
+            ZipFile.ExtractToDirectory("Assets/EncodingFiles/settings.zip",
                 "Assets/EncodingFiles/");
         });
     }
